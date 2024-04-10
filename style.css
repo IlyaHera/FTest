@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+}
+
+main {
+    margin: 0px;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+}
+
+.header-burger {
+    display: none;
+}
+
+.header-navigation {
+    position: relative;
+    display: flex;
+}
+
+.header-list {
+    display: flex;
+    margin: 17px 15px;
+}
+
+.header-list_item {
+    text-decoration: none;
+}
+
+.header-list_link {
+    color: gray;
+    font-weight: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.header-form {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    margin: 5px;
+    border-radius: 5px;
+    margin: 10px 15px;
+
+}
+
+.form-control {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 2px;
+    border-color: black;
+}
+
+
+.form-button {
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 4px;
+    font-size: 14px;
+    height: 35px;
+    border-color: black;
+
+}
+
+
+.main {
+    background-color: yellowgreen;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: greenyellow;
+
+}
+
+.main-title {
+    font-size: 52px;
+    color: greenyellow;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.main-link {
+    padding-top: 6px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid rgb(107, 106, 106);
+}
+
+.description {
+    font-size: 14px;
+    color: gray;
+    text-align: center;
+}
+
+.description-title {
+    text-align: center;
+    font-size: 32px;
+    color: black;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    margin: 0px auto;
+    max-width: 1200px;
+}
+
+@media (max-width: 767px) {
+    .header-list {
+        display: none;
+    }
+
+    .header-burger {
+        width: 60px;
+        height: 30px;
+        position: relative;
+        overflow: hidden;
+        display: block;
+        top: 19px;
+        left: 20px;
+    }
+
+    .burger-line_top {
+        width: 100%;
+        height: 3px;
+        position: absolute;
+        background-color: #ffffff;
+    }
+    .burger-line_middle {
+        width: 100%;
+        height: 3px;
+        margin-top: 10px;
+        position: absolute;
+        background-color: #ffffff;
+    }
+    .burger-line_bottom {
+        width: 100%;
+        height: 3px;
+        margin-top: 20px;
+        position: absolute;
+        background-color: #ffffff;
+    }
+
+    .content {
+        max-width: none;
+        flex-direction: column;
+    }
+}
+
+.content_image {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.content-box {
+    margin: 0px 5px 5px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+
+.content-box_text {
+    font-size: 14px;
+    color: gray;
+}
+
+.blueviolet {
+    font-size: 20px;
+    color: blueviolet;
+}
+
+
+
+.about-us {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    background-color: goldenrod;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+    .about-us {
+        max-width: none;
+        flex-direction: column;
+    }
+
+    .about-us-box {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+}
+
+.about-us_image {
+    border-radius: 60%;
+    color: black;
+    width: 100px;
+    height: 100px;
+}
+
+.about-us_link {
+    color: yellow;
+    font-size: 20px;
+}
+
+.black {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.btn {
+    background-color: gray;
+    padding-top: 6px;
+    padding-right: 13px;
+    padding-bottom: 6px;
+    padding-left: 13px;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    border: 1px solid rgb(128, 128, 190);
+    font-size: 14px;
+}
+
+.about-us_text {
+    color: yellow;
+    font-size: 12px;
+
+}
+
+
+
+.extra {
+    text-align: center;
+    font-size: 12px;
+    color: gray;
+
+}
+
+.extra_link {
+    color: gray;
+    font-size: 12px;
+    font-weight: 200;
+}
